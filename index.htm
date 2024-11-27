@@ -105,9 +105,6 @@
     // Add the Recreation sites to the map.
     data.addTo(mymap);
 
-    // create the county boundaries layer
-    L.geoJson.ajax("assets/County_Sites.geojson").addTo(mymap);
-
     // 6. Set function for color ramp
     colors = chroma.scale('Purples').colors(5); //we'll use 5 classes of purples
     // this function manually defines your choropleth classification system
